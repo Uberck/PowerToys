@@ -15,7 +15,7 @@ We understand users will run applications elevated. We do as well.  We have two 
 
 This is when a process runs with "elevated" privileges.  Typically this would be associated with the administrator accounts on a system.
 
-Basically it runs with additional access to the operating system.  Most things do not need run elevated. A common scenario would be needing to run certain PowerShell commands or edit the registry.
+Basically it runs with additional access to the operating system.  Most things do not need to be run elevated. A common scenario would be needing to run certain PowerShell commands or edit the registry.
 
 How do i know my application is "elevated"?  If you see this prompt (User Access Control prompt), the application is requesting it:
 
