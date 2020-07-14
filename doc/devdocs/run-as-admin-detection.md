@@ -6,7 +6,7 @@ If you're running any application as an administrator (aka elevated) and PowerTo
 
 ## Having PowerToys keep functioning properly
 
-We understand users will run applications elevated. We do as well.  We have two options for you when this scenario happens:
+We understand users will need to run applications elevated. We do as well. We have two options for you when this scenario happens:
 
 1. **Recommended:** PowerToys will prompt when we detect a process that is elevated.  Go to PowerToys settings inside the General Tab and click "Restart as administrator".
 2. Enable "Always run as administrator" in the PowerToys settings.
@@ -15,13 +15,13 @@ We understand users will run applications elevated. We do as well.  We have two 
 
 This is when a process runs with "elevated" privileges.  Typically this would be associated with the administrator accounts on a system.
 
-Basically it runs with additional access to the operating system.  Most things do not need run elevated. A common scenario would be needing to run certain PowerShell commands or edit the registry.
+Basically it runs with additional access to the operating system.  Most things do not need to be ran elevated. A common scenario would be needing to run certain PowerShell commands or editing the registry.
 
-How do i know my application is "elevated"?  If you see this prompt (User Access Control prompt), the application is requesting it:
+How do I know if my application is "elevated"?  If you see this prompt (User Access Control prompt), the application is requesting it:
 
 ![alt text][uac]
 
-At times also, elevated terminals for instance, they will typically have the phrase "Administrator" appended to the title bar. Be warned, this isn't always the case it will be appended.
+Also at times, in elevated terminals for instance, there will typically be the phrase "Administrator" appended to the title bar. Be warned, it isn't always the case that it will be appended.
 
 ![alt text][elevatedWindow]
 
@@ -29,7 +29,7 @@ At times also, elevated terminals for instance, they will typically have the phr
 
 PowerToys in itself does not.  It only needs to be elevated when it has to interact with other applications that are running elevated. If those applications are in focus, PowerToys may not function unless it is elevated as well.
 
-These are the two scenarios we will not work in:
+These are the two scenarios it will not work in:
 
 1. Intercepting certain types of keyboard strokes
 2. Resizing / Moving windows
